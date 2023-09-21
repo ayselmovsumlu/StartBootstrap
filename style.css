@@ -1,13 +1,36 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
 
-a {
-  color: orange;
+header {
+  padding: 50px 0;
+}
+header h2 {
+  font-size: 35px;
+  color: #ffc700;
+}
+header nav a {
+  font-size: 20px;
+  color: white;
+  margin-right: 30px;
 }
 
-a:hover {
-  color: black;
+#welcome .textbox h1 {
+  font-size: 65px;
+  color: white;
+  font-weight: 700;
 }
-/*# sourceMappingURL=style.css.map */
+#welcome .textbox h2 {
+  font-size: 45px;
+  color: white;
+  font-weight: 700;
+}
+#welcome .textbox .btn {
+  color: white;
+  background-color: #ffc700;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 25px 40px;
+}/*# sourceMappingURL=style.css.map */
