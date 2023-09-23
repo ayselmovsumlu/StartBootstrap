@@ -4,7 +4,8 @@ body {
 }
 
 header {
-  padding: 50px 0;
+  padding: 20px 0;
+  background-color: #524e4e;
 }
 header h2 {
   font-size: 35px;
@@ -16,10 +17,14 @@ header nav a {
   margin-right: 30px;
 }
 
+#welcome {
+  padding: 80px 0;
+}
 #welcome .textbox h1 {
   font-size: 65px;
   color: white;
   font-weight: 700;
+  margin: 40px 0;
 }
 #welcome .textbox h2 {
   font-size: 45px;
