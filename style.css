@@ -18,7 +18,7 @@ header nav a {
 }
 
 #welcome {
-  padding: 50px 0;
+  padding: 80px 0;
   background-image: url("assets/header-bg.jpg");
   height: 650px;
   background-size: cover;
@@ -53,5 +53,14 @@ header nav a {
 #services h4 {
   font-size: 20px;
   color: #969494;
+  margin: 20px 0;
+}
+#services h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+#services p {
+  font-size: 20px;
   margin: 20px 0;
 }/*# sourceMappingURL=style.css.map */
