@@ -4,23 +4,14 @@ body {
 }
 
 header {
-  padding: 20px 0;
+  padding: 15px 0;
   background-color: #0f0f0f;
   position: fixed;
-  right: 50px;
-  top: 20px;
+  width: 100%;
 }
 header .menu h2 {
   font-size: 30px;
   color: #ffc700;
-  position: absolute;
-  left: -50px;
-  top: 20px;
-}
-header .menu nav {
-  position: fixed;
-  right: 50px;
-  top: 20px;
 }
 header .menu nav a {
   font-size: 20px;
@@ -29,10 +20,15 @@ header .menu nav a {
 }
 
 #welcome {
-  padding: 80px 0;
+  padding: 50px 0;
   background-image: url("assets/header-bg.jpg");
-  height: 650px;
+  height: 730px;
   background-size: cover;
+}
+#welcome .textbox {
+  position: absolute;
+  top: 30%;
+  left: 30%;
 }
 #welcome .textbox h1 {
   font-size: 65px;
