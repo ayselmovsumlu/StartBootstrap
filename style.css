@@ -10,11 +10,11 @@ header {
   width: 100%;
 }
 header .menu h2 {
-  font-size: 30px;
+  font-size: 28px;
   color: #ffc700;
 }
 header .menu nav a {
-  font-size: 20px;
+  font-size: 19px;
   color: white;
   margin-right: 30px;
 }
@@ -22,24 +22,24 @@ header .menu nav a {
 #welcome {
   padding: 50px 0;
   background-image: url("assets/header-bg.jpg");
-  height: 730px;
+  height: 750px;
+  background-position: center;
   background-size: cover;
 }
 #welcome .textbox {
   position: absolute;
-  top: 30%;
-  left: 30%;
+  top: 35%;
+  left: 25%;
 }
 #welcome .textbox h1 {
-  font-size: 65px;
+  font-size: 85px;
   color: white;
   font-weight: 700;
-  margin: 40px 0;
+  margin: 25px 0 55px;
 }
 #welcome .textbox h2 {
-  font-size: 45px;
+  font-size: 40px;
   color: white;
-  font-weight: 700;
 }
 #welcome .textbox .btn {
   color: white;
@@ -47,7 +47,7 @@ header .menu nav a {
   font-size: 20px;
   font-weight: 700;
   border-radius: 5px;
-  padding: 25px 40px;
+  padding: 20px 45px;
 }
 
 #services {
