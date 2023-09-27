@@ -4,8 +4,8 @@ body {
 }
 
 header {
-  padding: 20px 0;
-  background-color: #0f0f0f;
+  padding: 25px 0;
+  background-color: #1d1c1c;
   position: fixed;
   width: 100%;
   z-index: 3;
@@ -52,7 +52,7 @@ header .menu nav a {
 }
 
 #services {
-  padding: 60px 0;
+  padding: 80px 0;
 }
 #services h1 {
   font-size: 50px;
@@ -61,10 +61,10 @@ header .menu nav a {
 #services h4 {
   font-size: 20px;
   color: #969494;
-  margin: 20px 0;
+  margin-top: 20px;
 }
 #services .box {
-  margin: 50px 0;
+  margin: 35px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -87,4 +87,9 @@ header .menu nav a {
   font-size: 19px;
   color: #837c7c;
   line-height: 1.4;
+}
+
+#portfolio {
+  padding: 80px 0;
+  background-color: #918f8f;
 }/*# sourceMappingURL=style.css.map */
