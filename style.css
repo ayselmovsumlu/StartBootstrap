@@ -60,7 +60,7 @@ header .menu nav a {
 }
 #services h4 {
   font-size: 20px;
-  color: #969494;
+  color: #747597;
   margin-top: 20px;
 }
 #services .box {
@@ -85,11 +85,32 @@ header .menu nav a {
 }
 #services .box p {
   font-size: 19px;
-  color: #837c7c;
+  color: #747597;
   line-height: 1.4;
 }
 
 #portfolio {
   padding: 80px 0;
-  background-color: #918f8f;
+  background-color: #f8f9fa;
+}
+#portfolio h1 {
+  font-size: 47px;
+  font-weight: 700;
+}
+#portfolio h4 {
+  font-size: 19px;
+  color: #747597;
+  margin: 25px 0;
+}
+#portfolio .box {
+  margin: 25px 5px;
+}
+#portfolio .box h2 {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 25px 0 15px;
+}
+#portfolio .box h5 {
+  font-size: 20px;
+  color: #747597;
 }/*# sourceMappingURL=style.css.map */
