@@ -147,7 +147,8 @@ header .menu nav a:hover {
 }
 
 #about {
-  padding: 70px 0;
+  padding: 90px 0;
+  position: relative;
 }
 #about h1 {
   font-size: 55px;
@@ -159,8 +160,8 @@ header .menu nav a:hover {
   margin: 30px 0;
 }
 #about .textbox {
-  width: 440px;
-  margin: 40px 90px;
+  width: 420px;
+  margin: 30px 120px 0 0;
 }
 #about .textbox h2 {
   font-size: 28px;
@@ -176,6 +177,9 @@ header .menu nav a:hover {
   line-height: 1.6;
   color: #747597;
 }
+#about .rght {
+  margin-left: 120px;
+}
 #about .imgbox {
   border: 5px solid #e9ecef;
   border-radius: 50%;
@@ -183,7 +187,7 @@ header .menu nav a:hover {
   overflow: hidden;
   margin: 40px 80px;
   position: absolute;
-  right: 38%;
+  right: 40%;
 }
 #about .imgbox img {
   width: 100%;
