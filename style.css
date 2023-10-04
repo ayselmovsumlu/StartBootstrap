@@ -147,7 +147,7 @@ header .menu nav a:hover {
 }
 
 #about {
-  padding: 90px 0;
+  padding: 120px 0;
 }
 #about h1 {
   font-size: 55px;
@@ -160,11 +160,11 @@ header .menu nav a:hover {
 }
 #about .box {
   position: relative;
-  margin-bottom: 90px;
+  padding: 30px 0 90px;
 }
 #about .box .textbox {
   width: 420px;
-  margin: 30px 0 0 100px;
+  margin: 0 0 0 100px;
 }
 #about .box .textbox h2 {
   font-size: 28px;
@@ -199,9 +199,13 @@ header .menu nav a:hover {
   top: 15%;
 }
 #about .box .story {
+  border: 7px solid #e9ecef;
+  border-radius: 50%;
   background-color: #ffc700;
   width: 170px;
   height: 170px;
+  position: absolute;
+  right: 43%;
 }
 #about .box .minibox {
   width: 80px;
@@ -211,4 +215,27 @@ header .menu nav a:hover {
   font-size: 22px;
   font-weight: 700;
   line-height: 1.4;
+}
+
+#team {
+  padding: 90px 0;
+  background-color: #f8f9fa;
+}
+#team h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+#team h4 {
+  font-size: 20px;
+  color: #747597;
+  margin: 30px 0;
+}
+#team .imgbox {
+  border: 8px solid #e9ecef;
+  border-radius: 50%;
+  width: 230px;
+  overflow: hidden;
+}
+#team .imgbox img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
