@@ -144,7 +144,6 @@ header .menu nav a:hover {
   background-color: #ffc700;
   color: white;
   opacity: 0.9;
-  cursor: pointer;
 }
 
 #about {
@@ -161,10 +160,11 @@ header .menu nav a:hover {
 }
 #about .box {
   position: relative;
+  margin-bottom: 90px;
 }
 #about .box .textbox {
   width: 420px;
-  margin: 30px 120px 0 0;
+  margin: 30px 0 0 100px;
 }
 #about .box .textbox h2 {
   font-size: 28px;
@@ -180,38 +180,23 @@ header .menu nav a:hover {
   line-height: 1.6;
   color: #747597;
 }
+#about .box .rght {
+  margin-right: 80px;
+}
 #about .box .imgbox {
-  border: 5px solid #e9ecef;
+  border: 7px solid #e9ecef;
   border-radius: 50%;
   width: 170px;
   overflow: hidden;
-  margin: 40px 80px;
   position: absolute;
-  right: 38%;
+  right: 43%;
   top: 0;
 }
 #about .box img {
   width: 100%;
 }
-#about .box .fff {
-  position: absolute;
-  right: 38%;
-  top: 85%;
-}
-#about .box .rght {
-  position: absolute;
-  left: 60%;
-  top: 85%;
-}
-#about .box .aaa {
-  position: absolute;
-  left: 0;
-  top: 125%;
-}
-#about .box .ddd {
-  position: absolute;
-  right: 38%;
-  top: 160%;
+#about .box .top {
+  top: 15%;
 }
 #about .box .story {
   background-color: #ffc700;
