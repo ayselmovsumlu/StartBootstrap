@@ -238,4 +238,29 @@ header .menu nav a:hover {
 }
 #team .imgbox img {
   width: 100%;
+}
+#team .box {
+  margin: 40px 0;
+}
+#team .box h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 25px 0 10px;
+}
+#team .box h5 {
+  font-size: 20px;
+  color: #747597;
+}
+#team .box ul {
+  display: flex;
+  justify-content: center;
+}
+#team .box .icon {
+  font-size: 16px;
+  padding: 10px;
+  color: white;
+  background-color: #101010;
+  border-radius: 50%;
+  margin: 20px 10px;
+  width: 40px;
 }/*# sourceMappingURL=style.css.map */
