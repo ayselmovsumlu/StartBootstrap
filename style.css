@@ -228,10 +228,10 @@ header .menu nav a:hover {
 #team h4 {
   font-size: 20px;
   color: #747597;
-  margin: 30px 0;
+  margin: 25px 0;
 }
 #team .imgbox {
-  border: 8px solid #e9ecef;
+  border: 8px solid #dfe0e1;
   border-radius: 50%;
   width: 230px;
   overflow: hidden;
@@ -240,7 +240,7 @@ header .menu nav a:hover {
   width: 100%;
 }
 #team .box {
-  margin: 40px 0;
+  margin: 30px 0;
 }
 #team .box h2 {
   font-size: 28px;
@@ -263,4 +263,32 @@ header .menu nav a:hover {
   border-radius: 50%;
   margin: 20px 10px;
   width: 40px;
+  transition: 2s;
+}
+#team .box .icon:hover {
+  opacity: 0.9;
+}
+#team .minibox {
+  width: 900px;
+}
+#team .minibox p {
+  font-size: 19px;
+  color: #747597;
+  line-height: 1.6;
+}
+
+#microsoft {
+  padding: 60px 0;
+}
+#microsoft .imgbox {
+  width: 200px;
+}
+#microsoft .ggl {
+  width: 120px;
+}
+#microsoft .fcb {
+  width: 160px;
+}
+#microsoft .ibm {
+  width: 110px;
 }/*# sourceMappingURL=style.css.map */
