@@ -291,4 +291,46 @@ header .menu nav a:hover {
 }
 #microsoft .ibm {
   width: 110px;
+}
+
+#contact {
+  padding: 50px 0;
+  background-image: url("assets/map-image.png");
+  background-color: #212529;
+  height: 680px;
+  background-position: center;
+  background-size: cover;
+}
+#contact h1 {
+  font-size: 55px;
+  font-weight: 700;
+  color: white;
+}
+#contact h4 {
+  font-size: 20px;
+  color: #6c757d;
+  margin: 30px 0 70px;
+}
+#contact input {
+  color: #d5dde4;
+  background-color: white;
+  width: 600px;
+  height: 70px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+#contact .box input {
+  height: 260px;
+  margin-bottom: 0;
+}
+#contact .btn {
+  color: white;
+  background-color: #ffc700;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 20px 48px;
+  margin-top: 30px;
+  opacity: 0.7;
 }/*# sourceMappingURL=style.css.map */
