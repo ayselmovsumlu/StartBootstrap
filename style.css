@@ -4,15 +4,14 @@ body {
 }
 
 header {
-  padding: 25px 0;
+  padding: 20px 0;
   background-color: #212529;
   position: fixed;
   width: 100%;
   z-index: 3;
 }
-header .menu h2 {
-  font-size: 23px;
-  color: #ffc700;
+header .menu .imgbox {
+  width: 150px;
 }
 header .menu nav a {
   font-size: 18px;
@@ -255,7 +254,7 @@ header .menu nav a:hover {
   display: flex;
   justify-content: center;
 }
-#team .box .icon {
+#team .box .icon i {
   font-size: 16px;
   padding: 10px;
   color: white;
@@ -263,10 +262,11 @@ header .menu nav a:hover {
   border-radius: 50%;
   margin: 20px 10px;
   width: 40px;
-  transition: 2s;
+  transition: 0.5s;
 }
-#team .box .icon:hover {
-  opacity: 0.9;
+#team .box .icon i:hover {
+  opacity: 0.7;
+  cursor: pointer;
 }
 #team .minibox {
   width: 900px;
@@ -312,16 +312,17 @@ header .menu nav a:hover {
   margin: 30px 0 70px;
 }
 #contact input {
-  color: #d5dde4;
+  color: #b0bece;
   background-color: white;
-  width: 600px;
+  border-radius: 7px;
+  width: 630px;
   height: 70px;
   margin-bottom: 20px;
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 600;
 }
 #contact .box input {
-  height: 260px;
+  height: 250px;
   margin-bottom: 0;
 }
 #contact .btn {
@@ -333,4 +334,37 @@ header .menu nav a:hover {
   padding: 20px 48px;
   margin-top: 30px;
   opacity: 0.7;
+}
+
+footer {
+  padding: 25px 0;
+}
+footer h3, footer h4 {
+  font-size: 17px;
+  color: #6c757d;
+}
+footer h4 {
+  margin-left: 25px;
+}
+footer .icon i {
+  font-size: 12px;
+  margin: 5px 5px 3px;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+footer ul .icon i {
+  font-size: 16px;
+  padding: 10px 14px;
+  color: white;
+  background-color: #212529;
+  border-radius: 50%;
+  margin-right: 20px;
+  width: 40px;
+  transition: 0.5s;
+}
+footer ul .icon i:hover {
+  opacity: 0.7;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
