@@ -164,6 +164,7 @@ header .box nav a:hover {
 
 #about {
   padding: 90px 0;
+  position: relative;
 }
 #about h1 {
   font-size: 55px;
@@ -172,7 +173,7 @@ header .box nav a:hover {
 #about h4 {
   font-size: 20px;
   color: #747597;
-  margin: 30px 0;
+  margin: 20px 0 70px;
 }
 #about .box .textbox {
   width: 420px;
@@ -184,21 +185,43 @@ header .box nav a:hover {
 #about .box .textbox h3 {
   font-size: 28px;
   font-weight: 700;
-  margin: 13px 0;
+  margin: 10px 0;
 }
 #about .box .textbox p {
   font-size: 19px;
-  line-height: 1.6;
+  line-height: 1.4;
   color: #747597;
+}
+#about .box img {
+  width: 100%;
 }
 #about .box .imgbox {
   border: 7px solid #e9ecef;
   border-radius: 50%;
   width: 170px;
+  height: 170px;
   overflow: hidden;
+  margin: 0 50px;
 }
-#about .box img {
-  width: 100%;
+#about .box .minibox {
+  width: 420px;
+  height: 120px;
+}
+#about .box .line {
+  border: 1px solid #e9ecef;
+  width: 0;
+  height: 600px;
+  position: absolute;
+  top: 22%;
+  z-index: -1;
+}
+#about .box .line2 {
+  border: 1px solid #e9ecef;
+  width: 0;
+  height: 600px;
+  position: absolute;
+  top: 55%;
+  z-index: -1;
 }
 #about .box .story {
   border: 7px solid #e9ecef;
@@ -207,7 +230,7 @@ header .box nav a:hover {
   width: 170px;
   height: 170px;
 }
-#about .box .minibox {
+#about .box .part {
   width: 80px;
 }
 #about .box h5 {
