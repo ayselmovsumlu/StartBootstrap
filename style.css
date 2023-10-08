@@ -8,19 +8,35 @@ header {
   background-color: #212529;
   position: fixed;
   width: 100%;
-  z-index: 3;
+  z-index: 1;
 }
-header .menu .imgbox {
+header .box .imgbox {
   width: 150px;
 }
-header .menu nav a {
+header .box .menu {
+  color: white;
+  font-size: 20px;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 5px;
+  display: none;
+}
+header .box h2 {
+  margin-right: 10px;
+}
+header .box nav a {
   font-size: 18px;
   color: white;
   margin-right: 30px;
   transition: 1s;
 }
-header .menu nav a:hover {
+header .box nav a:hover {
   color: #ffc700;
+}
+@media screen and (max-width: 1000px) {
+  header nav {
+    display: none;
+  }
 }
 
 #welcome {
