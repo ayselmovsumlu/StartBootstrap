@@ -19,7 +19,6 @@ header .box .menu {
   border: 1px solid white;
   padding: 10px;
   border-radius: 5px;
-  display: none;
 }
 header .box h2 {
   margin-right: 10px;
@@ -33,9 +32,17 @@ header .box nav a {
 header .box nav a:hover {
   color: #ffc700;
 }
+@media screen and (min-width: 1000px) {
+  header .menu {
+    display: none;
+  }
+}
 @media screen and (max-width: 1000px) {
   header nav {
     display: none;
+  }
+  header .menu {
+    display: flex;
   }
 }
 

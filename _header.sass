@@ -13,7 +13,7 @@ header
             border: 1px solid #ffff
             padding: 10px
             border-radius: 5px
-            display: none
+            
         h2
             margin-right: 10px
         nav
@@ -24,7 +24,12 @@ header
                 transition: 1s
                 &:hover
                     color: #ffc700
+    @media screen and ( min-width: 1000px )
+        .menu
+            display: none 
     @media screen and ( max-width: 1000px )
         nav
-            display: none
-    
+            display: none 
+        .menu
+            display: flex     
+                
