@@ -341,6 +341,12 @@ header .box nav a:hover {
   color: #6c757d;
   margin: 30px 0 70px;
 }
+#contact .minibox {
+  height: 70px;
+  background-color: white;
+  margin-bottom: 20px;
+  border-radius: 7px;
+}
 #contact input {
   background-color: white;
   border-radius: 7px;
@@ -348,6 +354,8 @@ header .box nav a:hover {
   height: 70px;
   margin-bottom: 20px;
   font-size: 19px;
+  font-weight: 600;
+  opacity: 0.4;
 }
 #contact .box {
   height: 250px;
