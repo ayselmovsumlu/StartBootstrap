@@ -1,13 +1,13 @@
 #welcome
     padding: 50px 0
     background-image: url("assets/header-bg.jpg")
-    height: 750px
+    height: 800px  
     background-position: center center
     background-size: cover
     position: relative
     .textbox
-        position: absolute
-        top: 35% 
+        position: absolute 
+        top: 35%
         h1
             font-size: 85px
             color: #ffff
@@ -23,3 +23,24 @@
             font-weight: 700
             border-radius: 5px
             padding: 20px 45px
+
+    @media screen and ( max-width: 1000px )
+        .textbox
+            h1
+                font-size: 65px
+            h2
+                font-size: 30px
+    @media screen and ( max-width: 700px )
+        .textbox
+            h1
+                font-size: 45px
+            h2
+                font-size: 25px
+    @media screen and ( max-width: 480px )
+        .textbox
+            h1
+                font-size: 35px
+            h2
+                font-size: 20px
+            .btn
+                padding: 15px 25px
