@@ -212,22 +212,6 @@ header .box nav a:hover {
 #portfolio .box .imgbox .btn .icon i:hover {
   cursor: pointer;
 }
-@media screen and (max-width: 1400px) {
-  #portfolio .box .imgbox img {
-    width: 250px;
-  }
-  #portfolio .box .textbox {
-    padding: 10px 0;
-    width: 250px;
-  }
-  #portfolio .box .textbox h2 {
-    font-size: 20px;
-    margin-bottom: 5px;
-  }
-  #portfolio .box .textbox h5 {
-    font-size: 15px;
-  }
-}
 
 #about {
   padding: 90px 0;
