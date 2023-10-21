@@ -209,6 +209,9 @@ header .box nav a:hover {
   color: white;
   opacity: 0.9;
 }
+#portfolio .box .imgbox .btn .icon i:hover {
+  cursor: pointer;
+}
 @media screen and (max-width: 1400px) {
   #portfolio .box .imgbox img {
     width: 250px;
