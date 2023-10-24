@@ -292,9 +292,8 @@ header .box nav a:hover {
   #about .box .txt {
     text-align: start;
   }
-  #about .aa {
-    justify-content: start;
-    margin-left: 60px;
+  #about .box .abc {
+    display: none;
   }
   #about .imgbox {
     height: 170px;
@@ -306,8 +305,9 @@ header .box nav a:hover {
     left: 28%;
   }
 }
+
 #team {
-  padding: 90px 0;
+  padding: 80px 0;
   background-color: #f8f9fa;
 }
 #team h1 {
@@ -372,6 +372,7 @@ header .box nav a:hover {
 }
 #microsoft .imgbox {
   width: 200px;
+  margin: 15px 0;
 }
 #microsoft .ggl {
   width: 120px;
