@@ -31,6 +31,7 @@ header .box nav a {
 }
 header .box nav a:hover {
   color: #ffc700;
+  cursor: pointer;
 }
 @media screen and (min-width: 1000px) {
   header .menu {
@@ -287,16 +288,10 @@ header .box nav a:hover {
     display: none;
   }
   #about .left {
-    flex-flow: row-reverse;
+    flex-direction: row-reverse;
   }
   #about .box .txt {
     text-align: start;
-  }
-  #about .box .abc {
-    display: none;
-  }
-  #about .imgbox {
-    height: 170px;
   }
   #about .line {
     left: 28%;
