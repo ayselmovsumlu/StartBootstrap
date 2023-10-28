@@ -227,6 +227,10 @@ header .box nav a:hover {
 #about .box .txt {
   text-align: end;
 }
+#about .box .minibox {
+  width: 420px;
+  height: 120px;
+}
 #about .box .imgbox {
   border: 7px solid #e9ecef;
   border-radius: 50%;
@@ -234,23 +238,16 @@ header .box nav a:hover {
   height: 170px;
   margin: 0 50px;
 }
-#about .box .imgbox img {
-  width: 100%;
-}
-#about .box .minibox {
-  width: 420px;
-  height: 120px;
-}
 #about .box .line {
-  border: 1px solid #e9ecef;
+  border: 2px solid #e9ecef;
   width: 0;
-  height: 600px;
+  height: 500px;
   position: absolute;
   top: 22%;
   z-index: -1;
 }
 #about .box .line2 {
-  border: 1px solid #e9ecef;
+  border: 2px solid #e9ecef;
   width: 0;
   height: 600px;
   position: absolute;
