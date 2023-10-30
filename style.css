@@ -256,11 +256,18 @@ header .box nav a:hover {
   line-height: 1.4;
 }
 @media screen and (max-width: 1400px) {
+  #about .box {
+    height: 160px;
+  }
   #about .box .imgbox {
-    width: 195px;
+    width: 220px;
+    height: 160px;
+  }
+  #about .box .line {
+    height: 160px;
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
   #about .none {
     display: none;
   }
@@ -271,16 +278,13 @@ header .box nav a:hover {
     text-align: start;
   }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 770px) {
   #about .box .imgbox {
-    width: 255px;
-    height: 225px;
+    width: 175px;
+    height: 125px;
   }
-  #about .box .minibox {
-    width: 350px;
-  }
-  #about .box .line {
-    width: 0;
+  #about .box .small {
+    width: 250px;
   }
 }
 
