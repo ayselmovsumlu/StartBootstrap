@@ -260,8 +260,8 @@ header .box nav a:hover {
     height: 160px;
   }
   #about .box .imgbox {
-    width: 220px;
-    height: 160px;
+    width: 200px;
+    height: 140px;
   }
   #about .box .line {
     height: 160px;
@@ -280,8 +280,8 @@ header .box nav a:hover {
 }
 @media screen and (max-width: 770px) {
   #about .box .imgbox {
-    width: 175px;
-    height: 125px;
+    width: 280px;
+    height: 100px;
   }
   #about .box .small {
     width: 250px;
