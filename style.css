@@ -237,10 +237,6 @@ header .box nav a:hover {
   height: 185px;
   margin: 0 50px;
 }
-#about .box .line {
-  border: 2px solid #e9ecef;
-  width: 0;
-}
 #about .box .story {
   border: 7px solid #e9ecef;
   border-radius: 50%;
@@ -263,9 +259,6 @@ header .box nav a:hover {
     width: 200px;
     height: 140px;
   }
-  #about .box .line {
-    height: 160px;
-  }
 }
 @media screen and (max-width: 1000px) {
   #about .none {
@@ -280,14 +273,17 @@ header .box nav a:hover {
 }
 @media screen and (max-width: 770px) {
   #about .box {
-    height: 260px;
+    height: 200px;
   }
   #about .box .imgbox {
     width: 280px;
     height: 100px;
+    margin: 0 25px;
   }
-  #about .box .mnb {
-    width: 250px;
+}
+@media screen and (max-width: 480px) {
+  #about .box {
+    height: 300px;
   }
 }
 
