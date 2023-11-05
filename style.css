@@ -233,8 +233,8 @@ header .box nav a:hover {
 #about .box .imgbox {
   border: 7px solid #e9ecef;
   border-radius: 50%;
-  width: 185px;
-  height: 185px;
+  width: 180px;
+  height: 140px;
   margin: 0 50px;
 }
 #about .box .story {
@@ -255,10 +255,6 @@ header .box nav a:hover {
   #about .box {
     height: 160px;
   }
-  #about .box .imgbox {
-    width: 200px;
-    height: 140px;
-  }
 }
 @media screen and (max-width: 1000px) {
   #about .none {
@@ -271,19 +267,26 @@ header .box nav a:hover {
     text-align: start;
   }
 }
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 760px) {
   #about .box {
     height: 200px;
   }
   #about .box .imgbox {
-    width: 280px;
+    width: 170px;
     height: 100px;
     margin: 0 25px;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 390px) {
   #about .box {
     height: 300px;
+  }
+  #about .box .imgbox {
+    width: 200px;
+    height: 80px;
+  }
+  #about .box h5 {
+    font-size: 16px;
   }
 }
 
