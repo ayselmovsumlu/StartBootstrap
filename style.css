@@ -252,9 +252,6 @@ header .box nav a:hover {
   line-height: 1.4;
 }
 @media screen and (max-width: 1200px) {
-  #about .box {
-    height: 200px;
-  }
   #about .box .imgbox {
     width: 180px;
     height: 150px;
@@ -273,27 +270,21 @@ header .box nav a:hover {
 }
 @media screen and (max-width: 760px) {
   #about .box .imgbox {
-    width: 170px;
-    height: 120px;
+    width: 150px;
+    height: 80px;
     margin: 0 25px;
   }
-}
-@media screen and (max-width: 480px) {
-  #about .box .imgbox {
-    width: 180px;
-    height: 100px;
-  }
   #about .box .imgbox h5 {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 360px) {
   #about .box {
     height: 250px;
   }
   #about .box .imgbox {
-    width: 220px;
-    height: 80px;
+    width: 200px;
+    height: 60px;
   }
 }
 
