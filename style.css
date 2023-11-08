@@ -2,10 +2,11 @@ body {
   font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
-body .imgbox {
+
+.imgbox {
   overflow: hidden;
 }
-body .imgbox img {
+.imgbox img {
   width: 100%;
 }
 
@@ -268,23 +269,28 @@ header .box nav a:hover {
     text-align: start;
   }
 }
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 770px) {
   #about .box .imgbox {
-    width: 150px;
-    height: 80px;
+    width: 130px;
+    height: 90px;
     margin: 0 25px;
   }
   #about .box .imgbox h5 {
     font-size: 15px;
   }
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 440px) {
   #about .box {
     height: 250px;
   }
   #about .box .imgbox {
-    width: 200px;
-    height: 60px;
+    width: 160px;
+    height: 90px;
+  }
+}
+@media screen and (max-width: 380px) {
+  #about .box .imgbox {
+    width: 250px;
   }
 }
 
