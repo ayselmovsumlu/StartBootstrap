@@ -239,18 +239,34 @@ header .box nav a:hover {
   margin: 0 50px;
 }
 #about .box .story {
-  border: 7px solid #e9ecef;
   background-color: #ffc700;
+  width: 160px;
+  height: 160px;
 }
-#about .box .part {
-  width: 14%;
-  height: 10%;
+#about .box .story .part {
+  width: 60px;
+  height: 90px;
 }
-#about .box h5 {
+#about .box .story .part h5 {
   color: white;
   font-size: 20px;
   font-weight: 700;
   line-height: 1.4;
+}
+@media screen and (max-width: 1200px) {
+  #about .box .story {
+    width: 140px;
+    height: 100px;
+  }
+  #about .box .story .part {
+    width: 60px;
+    height: 70px;
+  }
+  #about .box .story .part h5 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 18px;
+  }
 }
 @media screen and (max-width: 1000px) {
   #about .none {
@@ -266,13 +282,14 @@ header .box nav a:hover {
     width: 20%;
     height: 20%;
   }
+  #about .box .story {
+    width: 130px;
+    height: 120px;
+  }
 }
 @media screen and (max-width: 770px) {
   #about .box .imgbox {
     margin: 0 20px;
-  }
-  #about .box h5 {
-    font-size: 15px;
   }
 }
 @media screen and (max-width: 490px) {
@@ -285,6 +302,10 @@ header .box nav a:hover {
   #about .box .imgbox {
     width: 45%;
     height: 45%;
+  }
+  #about .box .story {
+    width: 190px;
+    height: 90px;
   }
 }
 
