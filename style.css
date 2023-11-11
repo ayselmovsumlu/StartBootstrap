@@ -403,12 +403,11 @@ header .box nav a:hover {
 #contact .minibox {
   height: 70px;
   background-color: white;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   border-radius: 7px;
   padding: 10px 0;
 }
 #contact input {
-  background-color: white;
   border-radius: 7px;
   font-size: 19px;
   font-weight: 600;
@@ -418,8 +417,13 @@ header .box nav a:hover {
   background-color: white;
   border-radius: 7px;
 }
-#contact .box input {
-  height: 250px;
+#contact .box textarea {
+  border-radius: 7px;
+  font-size: 19px;
+  font-weight: 600;
+  opacity: 0.3;
+  border: none;
+  padding: 15px;
 }
 #contact .btn {
   color: white;
